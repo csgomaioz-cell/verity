@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VERITY — what it will do, and what it will never do</title>
+<meta name="description" content="The honest answer to: is it safe to put VERITY on my computer. Where it runs, whose AI account it uses, what it can reach, the five things it always asks first, and the six things it will never do.">
+<meta property="og:title" content="VERITY — what it will do, and what it will never do">
+<meta property="og:description" content="Where it runs, whose key it uses, what it can reach, and the six things it will never do.">
+<meta property="og:type" content="article">
+<style>
+  :root{
+    --green-deep:#07291f;
+    --green:#0b3d2e;
+    --green-mid:#14532d;
+    --mint:#8fcbac;
+    --cream:#f6f4ee;
+    --ink:#161a18;
+    --muted:#5c6361;
+    --card:#ffffff;
+    --border:#e2e0d6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--cream);line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:600;margin:0 0 .5em;line-height:1.25}
+  a{color:var(--green-mid)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  header.nav{background:var(--green-deep);color:#fff}
+  header.nav .wrap{max-width:1060px;display:flex;align-items:center;justify-content:space-between;
+    flex-wrap:wrap;gap:10px;padding:16px 24px}
+  header.nav .logo{font-family:Georgia,serif;font-size:1.3rem;letter-spacing:2px;color:#fff;
+    text-decoration:none}
+  header.nav .logo span{color:var(--mint)}
+  header.nav nav a{color:#dcece4;text-decoration:none;margin-left:20px;font-size:.92rem}
+  .masthead{background:linear-gradient(140deg,var(--green-deep),var(--green) 65%,var(--green-mid));
+    color:#fff;padding:56px 0 48px}
+  .masthead .wrap{max-width:860px}
+  .masthead h1{color:#fff;font-size:2.1rem;max-width:620px}
+  .masthead p{color:#cfe5da;margin:0;max-width:600px}
+  main{padding:48px 0 20px}
+  main h2{font-size:1.32rem;margin-top:2.2em;color:var(--green)}
+  main h2:first-of-type{margin-top:0}
+  ul{padding-left:1.25em}
+  li{margin-bottom:.45em}
+  .lede{font-size:1.06rem;color:var(--muted);border-left:3px solid var(--mint);padding-left:18px;
+    margin:0 0 8px}
+  .box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:22px 26px;
+    margin:18px 0}
+  .box.never{border-color:#c9bdbd;background:#fffdfc}
+  .box h2{margin-top:0}
+  .sig{margin:40px 0 0;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);
+    font-size:.94rem}
+  footer{background:var(--green-deep);color:#9fc4b4;padding:34px 0;font-size:.88rem;margin-top:48px}
+  footer .wrap{max-width:1060px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+  footer a{color:#cfe5da}
+  @media(max-width:620px){.masthead h1{font-size:1.65rem}header.nav nav a{margin:0 16px 0 0}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="./">VERI<span>TY</span></a>
+    <nav>
+      <a href="./">Home</a>
+      <a href="./#pricing">Pricing</a>
+      <a href="./#contact">Get it installed</a>
+    </nav>
+  </div>
+</header>
+
+<div class="masthead">
+  <div class="wrap">
+    <h1>What it will do, and what it will never do</h1>
+    <p>The honest answer to the question everyone asks second: is it safe to put this on my
+      computer.</p>
+  </div>
+</div>
+
+<main>
+<div class="wrap">
+
+  <p class="lede">This page is also sent with the intake form before install day and handed over on
+    paper at the end of the setup hour. It has two jobs: to answer the safety question properly, and
+    to prevent an argument in month three about something nobody wrote down in month one. Nothing on
+    it is aspirational — it is all literally true of the installed software.</p>
+
+  <h2>Where it lives</h2>
+  <p>VERITY runs on your own Windows PC. There is no server of mine in the middle, and no copy of
+    your work on any machine of mine. If you turn the PC off, VERITY is off.</p>
+
+  <h2>Whose AI account it uses</h2>
+  <p>Yours. You create an account with Anthropic or OpenAI, you hold the key, and they bill you
+    directly for what you use. Typical real cost is €4 to €10 a month for light use and €15 to €35
+    for heavy use. I never see that key in plain text after install day, and I never use your account
+    for anything of mine.</p>
+
+  <h2>What it can reach</h2>
+  <p>Only what you tell it to, and nothing it has not been set up for:</p>
+  <ul>
+    <li>The desktop of that PC — opening programs, typing, clicking, moving files.</li>
+    <li>The Chrome browser you already use, with the sites you are already signed in to.</li>
+    <li>The folders you name on install day. Not the whole disk by default.</li>
+    <li>Your email, your calendar or any other account <strong>only if you connect it yourself</strong>
+      during the install hour, and only the ones you choose.</li>
+  </ul>
+
+  <div class="box">
+    <h2>What it always asks you first</h2>
+    <p>Even when it could do these on its own, it stops and asks:</p>
+    <ul>
+      <li>Spending money or buying anything.</li>
+      <li>Sending an email, a message or a post as you.</li>
+      <li>Deleting your files or an account.</li>
+      <li>Anything involving a password, a key or security.</li>
+      <li>A decision that is yours to make rather than a task to carry out.</li>
+    </ul>
+    <p>If nobody is at the desk when one of those comes up, it waits, or it rings you — whichever you
+      set.</p>
+  </div>
+
+  <div class="box never">
+    <h2>What it will never do, at all</h2>
+    <ul>
+      <li>Never send, show, print or post an API key, a password, a token or a session file. Not to
+        me, not to anyone, not even to you by email.</li>
+      <li>Never install software from a link that arrived in an email or a message.</li>
+      <li>Never give anyone remote access to your PC — including me, unless you start the screen
+        share yourself and watch it.</li>
+      <li>Never make a payment on its own.</li>
+      <li>Never speak to your customers as you without your go-ahead on the wording.</li>
+      <li>Never keep a recording of your microphone or camera. It listens when you speak to it; it
+        does not archive.</li>
+    </ul>
+  </div>
+
+  <h2>What I can and cannot see</h2>
+  <p>I see nothing on your PC unless you are on a screen share with me and showing me. Support
+    happens by email, by phone, or on a share you start. I do not hold a standing way in, and I do
+    not want one — a permanent back door into a customer's machine is a liability I will not
+    carry.</p>
+
+  <h2>What is honestly not perfect</h2>
+  <ul>
+    <li>Windows 10 and 11 only. Not Mac, not Linux, not a phone on its own.</li>
+    <li>It works by looking at your screen and acting on it, so a program that redesigns its own
+      window can break a routine. That is what maintenance is for: I fix it, you do not.</li>
+    <li>It is as good as the instructions it is given. The first month is spent sharpening routines,
+      and the thirty-day call exists for exactly that.</li>
+    <li>It is not a replacement for a member of staff. It is a replacement for the hour a day you
+      spend retyping things you have already typed.</li>
+  </ul>
+
+  <h2>If you want out</h2>
+  <p>Tell me and the maintenance stops at the end of the month paid for. The software stays
+    installed and keeps working on your own key; there is no remote switch I can throw. The
+    uninstaller removes it completely, and I will walk you through it on a call if you would rather
+    not do it alone.</p>
+
+  <p class="sig">Ilia — Valencia, Spain — <a href="mailto:csgomaioz@gmail.com">csgomaioz@gmail.com</a>
+    — <a href="./">back to the main page</a></p>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>VERITY — installed and maintained from Valencia, Spain.</div>
+    <div><a href="./safety.html">What it will never do</a> &nbsp;·&nbsp;
+      <a href="mailto:csgomaioz@gmail.com">csgomaioz@gmail.com</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
